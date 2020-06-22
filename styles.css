@@ -1,0 +1,133 @@
+body {
+  padding-top: 96px;
+}
+
+.fixed-top {
+  box-shadow: 0px 0px 52px 0px rgba(0, 0, 0, 0.81);
+}
+.bg-dark {
+  background-color: #343a40de !important;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 40%;
+  }
+  50% {
+    background-position: 100% 70%;
+  }
+  100% {
+    background-position: 0% 40%;
+  }
+}
+
+.jumbotron {
+  background-image: radial-gradient(
+    circle at top left,
+    #654ecd 0%,
+    #454ecd 3%,
+    #4548c2 3%,
+    #5548c2 20%,
+    #6641b7 20%,
+    #5641b7 65%,
+    #863bac 65%,
+    #263bac 72%,
+    #3735a0 72%,
+    #3735a0 79%,
+    #372f95 79%,
+    #372f95 82%,
+    #58288a 82%,
+    #28288a 90%,
+    #48227f 90%,
+    #28227f 100%
+  );
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2),
+    0 10px 10px -5px rgba(0, 0, 0, 0.14) !important;
+  background-size: 300% 300%;
+  animation: gradient 10s ease infinite;
+  color: white;
+}
+
+.jumbotron__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron__desc{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lead--half{
+  width: 50%;
+}
+
+.anim-wrapper {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+svg {
+  width: 70%;
+  height: 70%;
+}
+
+#author {
+  opacity: 0.5;
+}
+
+.unisystem-banner--new {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap");
+  @font-face {
+      font-family: "Montserrat;
+      src: url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap");
+  }
+  display:flex;
+  width:100vw;
+    height: 100%;
+    max-height: 581px;
+    text-align: center;
+    justify-content: center;
+    align-items: space-around;
+    margin: 0;
+    opacity:0
+  }
+
+  #unisystem-banner-en,
+  #unisystem-banner-pl {
+  align-self:flex-start;
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  #root{
+    width:100%;
+  }
+
+  .App{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+  }
+
+  .logo{
+    height:70px;
+  }
+
+  .my-face{
+    height:160px;
+  }
